@@ -6,7 +6,7 @@ function App() {
     <>
     <h1 className='bg-black text-white text-center font-bold '>Tailwind Practice </h1>
       <div className="container flex justify-center items-center">
-        <div className="content border-4 bg-slate-100 m-5 px-10 rounded-lg flex justify-center items-center flex-col border-transparent">
+        <div className="content border-4 bg-slate-100 m-5 px-10 rounded-lg flex justify-center items-center flex-col border-transparent hover:bg-pink-100 delay-100 ease-in-out cursor-pointer">
           <div className="span1 m-3">
             <span className='text-3xl m-5 px-5 py-2 text-red-600 font-semibold'>Hello Tailwind</span>
           </div>
