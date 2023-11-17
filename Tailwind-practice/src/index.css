@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 .container {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
     background-color: #27374D ;
 }
 .content {
@@ -18,9 +17,6 @@ input {
 }
 .right {
     width: 40%;
-}
-.left {
-    width: 30%;
 }
 textarea {
     width: 400px;
